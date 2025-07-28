@@ -11,6 +11,8 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { useGraphStore } from "@/lib/store"
 import { AlertCircle, CheckCircle } from "lucide-react"
 
+// hello boy 
+
 export function CustomModePanel() {
   const { graphType, setGraphType, generateCustomGraph } = useGraphStore()
   const [numNodes, setNumNodes] = useState<number>(4)
